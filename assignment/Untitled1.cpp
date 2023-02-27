@@ -12,8 +12,8 @@ int main(){
 	switch(chucNang){
 		case 1:
 			printf("Ban chon chuc nang tinh tien dien\n");
-			int ;
-			printf("Nhap vao so kwh dien: ",n);
+			int n;
+			printf("Nhap vao so kwh dien:%d");
 			scanf("%f",&n);
 			if(n>0&&n<50){
 				printf("So tien can tra la: %f ",n*1678);
